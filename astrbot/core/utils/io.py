@@ -95,7 +95,7 @@ async def download_image_by_url(url: str, post: bool = False, post_data: dict = 
         ssl_context.set_ciphers('DEFAULT')
         async with aiohttp.ClientSession() as session:
             if post:
-                async with session.get(url, ssl=ssl_context) as resp:
+                async with session.post(url, json=post_data, ssl=ssl_context) as resp:
                     return save_temp_img(await resp.read())
             else:
                 async with session.get(url, ssl=ssl_context) as resp:
