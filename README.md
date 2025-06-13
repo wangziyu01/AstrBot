@@ -152,7 +152,7 @@ _✨ 内置 Web Chat，在线与机器人交互 ✨_
 
 ## Disclaimer
 
-1. The project is protected under the `AGPL-v3` opensource license.
+1. The project is protected under the `AGPL-v3` open‐source license.
 2. The deployment of WeChat (personal account) utilizes [Gewechat](https://github.com/Devo919/Gewechat) service. AstrBot only guarantees connectivity with Gewechat and recommends using a WeChat account that is not frequently used. In the event of account risk control, the author of this project shall not bear any responsibility.
 3. Please ensure compliance with local laws and regulations when using this project.
 
